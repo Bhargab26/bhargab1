@@ -2,11 +2,13 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>I Love you</title>
 	<style>
 		body, html{
 			height: 100%;
 			margin: 0;
+			padding: 0;
 		}
 		.bg
 	{
@@ -17,10 +19,54 @@
 		background-size: cover;
 
 	}
+	.container{
+		position: relative;
+  text-align: center;
+  color: white;
+	}
+
+	.fa{
+		padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+	}
+	.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+h1{
+	color: white;
+	font-style: all;
+	font-weight: 900px;
+	font-size: 40px;
+}
+h2{
+	font-style: unset;
+	font-family: cursive;
+}
+
 	</style>
 </head>
 <body>
-<div class="bg"></div>
-<p>Hey</p>
+	<div class="container"></div>
+<div class="bg">
+	<h1>Hey JAAN!</h1>
+	<h2>Will you be my valentine?
+		<p>Say yes or no.</p>
+	</h2>
+	<div class="btn"></div>
+	<button type="button" onclick="alert('I Love you too baby')">YES</button>
+	<a href="https://www.facebook.com/kbhargab" class="fa fa-facebook" style="position: absolute; top: 8px; right: 16px;"></a>
+<a href="https://www.instagram.com/bhargab.exe/" class="fa fa-instagram" style="position: absolute; top: 100px; right: 16px;"></a>
+</div>
+
+
 </body>
 </html>
