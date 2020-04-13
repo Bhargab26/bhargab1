@@ -20,7 +20,7 @@
 
 	}
 	.container{
-		position: relative;
+		position: inherit;
   text-align: center;
   color: white;
 	}
@@ -46,11 +46,46 @@ h1{
 	font-style: all;
 	font-weight: 900px;
 	font-size: 40px;
+	margin: 0;
+	width: 800px;
 }
 h2{
 	font-style: unset;
 	font-family: cursive;
+	margin-left: 20px;
 }
+h3{
+	font-style: unset;
+	font-family: cursive;
+	margin-left: 25px;
+}
+
+button{
+	border: 2px solid black;
+  background-color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+  border-color: #4CAF50;
+  color: green;
+  border-radius: 10px;
+  margin-left: 10px;
+
+	
+}
+button:hover {
+	background-color: #4CAF50;
+  color: white;
+	
+}
+p{
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	font-style: italic;
+}
+
 
 	</style>
 </head>
@@ -58,11 +93,24 @@ h2{
 	<div class="container"></div>
 <div class="bg">
 	<h1>Hey JAAN!</h1>
-	<h2>Will you be my valentine?
-		<p>Say yes or no.</p>
+	<h2>Do you Love Me?
 	</h2>
-	<div class="btn"></div>
+	<h3>Say yes or no.</h3>
+	
 	<button type="button" onclick="alert('I Love you too baby')">YES</button>
+	<button onclick="myFunction()">NO</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Nafrat se bhi pyaar hota hai Jaaan";
+}
+</script>
+	<p>It doesn't matter you love me or not.</p>
+	<p>I have made this because you mean a lot to me.</p>
+	<p>You've been very special to me. Be the best of yourself.</p>
+
 	<a href="https://www.facebook.com/kbhargab" class="fa fa-facebook" style="position: absolute; top: 8px; right: 16px;"></a>
 <a href="https://www.instagram.com/bhargab.exe/" class="fa fa-instagram" style="position: absolute; top: 100px; right: 16px;"></a>
 </div>
