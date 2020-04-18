@@ -1,119 +1,62 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<title>I Love you</title>
-	<style>
-		body, html{
-			height: 100%;
-			margin: 0;
-			padding: 0;
-		}
-		.bg
-	{
-		background-image: url("love.jpeg");
-		height: 100%;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-
-	}
-	.container{
-		position: inherit;
-  text-align: center;
-  color: white;
-	}
-
-	.fa{
-		padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-	}
-	.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-h1{
-	color: white;
-	font-style: all;
-	font-weight: 900px;
-	font-size: 40px;
-	margin: 0;
-	width: 800px;
-}
-h2{
-	font-style: unset;
-	font-family: cursive;
-	margin-left: 20px;
-}
-h3{
-	font-style: unset;
-	font-family: cursive;
-	margin-left: 25px;
-	color: green;
-}
-
-button{
-	border: 2px solid black;
-  background-color: white;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: 0.5s;
-  border-color: #4CAF50;
-  color: green;
-  border-radius: 10px;
-  margin-left: 10px;
-
-	
-}
-button:hover {
-	background-color: #4CAF50;
-  color: white;
-	
-}
-p{
-	font-size: 20px;
-	font-weight: bold;
-	color: white;
-	font-style: italic;
-}
-
-
-
-
-	</style>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Module2 Assignment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
-	<div class="container"></div>
-<div class="bg">
-	<h1>Hey JAAN!</h1>
-	<h2>Do you Love Me?
-	</h2>
-	<h3>Say yes or no.</h3>
-	
-	<button type="button" onclick="alert('I Love you too baby')">YES</button>
-	<button onclick="alert('Nafrat se bhi pyaar hota hain JAAAAN')">NO</button>
+    <h1>Our Menu</h1>
 
+    <div class="col-lg-4 col-md-6 col-sm-12">
+        <section>
+            <h2 id="chicken">Chicken</h2>
+            <ul>
+                <li>Balsamic Roasted Brussels Sprouts, Butternut Squash and Chicken Thighs</li>
+                <li>Prosciutto-Wrapped Chicken with Garlic and Herb Cheese</li>
+                <li>Siri Pinter’s One-Pot Chicken Alfredo</li>
+                <li>Florentine Penne with Chicken</li>
+                <li>Garlic-Bread Chicken Nuggets with Balsamic Ketchup</li>
+            </ul>
+        </section>
+    </div>
 
-	<p>It doesn't matter you love me or not.</p>
-	<p>I have made this because you mean a lot to me.</p>
-	<p>You've been very special to me. Be the best of yourself.</p>
-	<h3>Take This Mridu</h3>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+        <section>
+            <h2 id="pork">Pork</h2>
+            <ul>
+                <li>Pork Cheek and Black-Eyed Pea Chili</li>
+                <li>Braised Pork with Cherry Gravy</li>
+                <li>Aleppo-Pepper-Pork-and-Fennel Sandwiches</li>
+                <li>Herb-Roasted Pork Subs with Garlicky Spinach</li>
+                <li>Chinese-Style Ribs with Guava Barbecue Sauce</li>
+                <li>Pork Medallions with Onion Marmalade</li>
+            </ul>
+        </section>
+    </div>
 
-	<a href="https://www.facebook.com/kbhargab" class="fa fa-facebook" style="position: absolute; top: 8px; right: 16px;"></a>
-<a href="https://www.instagram.com/bhargab.exe/" class="fa fa-instagram" style="position: absolute; top: 100px; right: 16px;"></a>
-<img src="rose.jpg" alt="rose" style="width:200px;">
-</div>
-
-
+    <div class="col-lg-4 col-md-12 col-sm-12">
+        <section>
+            <h2 id="steak">Steak</h2>
+            <ul>
+                <li>Butter-Basted Rib Eye Steaks</li>
+                <li>Balsamic Marinated Flank Steak</li>
+                <li>Grilled Hanger Steak with Kimchi-Apple Slaw</li>
+                <li>Throwback Porterhouse Steaks</li>
+                <li>Minute Steak Stacks with Herbed Anchovy Butter</li>
+                <li>Grilled Skirt Steak with Salsa Verde</li>
+            </ul>
+        </section>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <p>Github repository for this assignment can be found
+            <a href="https://github.com/GuanqiaoDing/Coursera-web-development/tree/master/module2_solution" target="_blank">here</a>.
+        </p>
+    </div>
 </body>
+
 </html>
